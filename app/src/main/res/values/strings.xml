@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Food Application</string>
+    <string name="splash_text">Welcome to Foodies</string>
+    <string name="splash1_h1">We serve incomparable delicacies</string>
+    <string name="splash1_h2">All the best restaurants with their top menu waiting for you, they can’t wait for your order!!</string>
+    <string name="splash_next">Next →</string>
+    <string name="splash_skip">Skip</string>
+    <string name="title_activity_dashboard">dashboard</string>
+    <string name="food_image_desc">Image of food item</string>
+    <string name="favorite_button_desc">Add to favorites</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="or_sign_in_with">-------------------- or sign in with --------------------</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="login_to_your_naccount">Login to your \naccount.</string>
+    <string name="register">Register</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="add_another_account">Add another account</string>
+    <string name="arrow_icon">Arrow Icon</string>
+    <string name="help_center">Help Center</string>
+    <string name="arrow_icon1">Arrow Icon</string>
+    <string name="user_imgage">user imgage</string>
+    <string name="user_image">User image</string>
+    <string name="help_button">help button</string>
+</resources>

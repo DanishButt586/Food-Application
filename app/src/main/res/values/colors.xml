@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#FF9E9E9E</color>
+    <color name="greyl">#FF746f73</color>
+    <color name="yellow">#FFFFEB3B</color>
+    <color name="green">#FF4CAF50</color>
+    <color name="gold">#FFca9909</color>
+    <color name="red">#FFFF0000</color>
+    <color name="blue">#FF2196F3</color>
+    <color name="purple">#FF9C27B0</color>
+    <color name="surface">#FEF7FF</color>        <!-- Base surface -->
+    <color name="surface_container">#F3EDF7</color>  <!-- Container color -->
+    <color name="surface_container_high">#E8E2EC</color>
+    <color name="orange">#FFFF9800</color>
+    <color name="pink">#FFFF4081</color>
+    <color name="gray">#FF616161</color>
+    <color name="accent_light">#80FF5722</color>
+    <color name="on_surface">#1A1C1E</color>
+    <color name="on_surface_variant">#5E5E5E</color>
+    <color name="surface_container_highest">#F3F3F3</color>
+    <color name="outline">#79747E</color>
+    <color name="light_blue">#FF03A9F4</color>
+    <color name="light_green">#FF8BC34A</color>
+    <color name="light_yellow">#FFFFF500</color>
+    <color name="light_purple">#FFAA66CC</color>
+    <color name="light_pink">#FFFF7085</color>
+    <color name="light_orange">#FFFFA726</color>
+    <color name="light_gray">#FFBDBDBD</color>
+    <color name="light_red">#FFFF5252</color>
+    <color name="brown">#FF795548</color>
+    <color name="teal">#FF03DAC5</color>
+    <color name="cyan">#FF00BCD4</color>
+    <color name="indigo">#FF3F51B5</color>
+    <color name="lime">#FFCDDC39</color>
+    <color name="amber">#FFFFC107</color>
+    <color name="IconColor">#b5b5b5</color>
+    <color name="accent">#FF8C00</color>
+    <color name="textPrimary">#333333</color>
+    <color name="textSecondary">#888888</color>
+    <color name="textDisabled">#CCCCCC</color>
+    <color name="textHint">#999999</color>
+    <color name="textLink">#007AFF</color>
+    <color name="textHighlight">#FFFF00</color>
+    <color name="textError">#FFC62828</color>
+    <color name="textSuccess">#FF4CAF50</color>
+    <color name="textWarning">#FFFF9800</color>
+
+
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="SelectedPhotoAccess" />
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_IMAGES"
+        tools:ignore="SelectedPhotoAccess" >
+    </uses-permission>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/main_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/main_logo"
+        android:supportsRtl="true"
+        android:name=".FoodApplication"
+        android:theme="@style/Theme.FoodApplication"
+        tools:targetApi="31">
+
+<!--        For actual image handling, you might want to implement an image picker, but this basic version uses predefined category images for simplicity. Yes implement this-->
+
+        <activity
+            android:name=".AddProductActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AdminFoodDetailActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".EditFoodActivity"
+            android:exported="false" />
+
+        <activity android:name=".admin_page"
+            android:exported="true">
+
+        </activity>
+
+        <activity android:name=".BillPageActivity"
+            android:exported="false"/>
+
+
+        <activity android:name=".FavouriteActivity"
+            android:exported="false"/>
+
+        <activity android:name=".CheckoutActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".activity_food_detail"
+            android:exported="false" />
+
+        <activity android:name=".MyCartActivity"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".activity_search"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAOVYRIgupAurZup5y1PRh8Ismb1A3lLao" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Settings_page"
+            android:exported="true" />
+        <activity
+            android:name=".PersonalData"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="true" />
+        <activity
+            android:name=".NotificationPage"
+            android:exported="false" />
+        <activity
+            android:name=".policy"
+            android:exported="false" />
+        <activity
+            android:name=".mycartempty"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".resetpassword1"
+            android:exported="false" />
+        <activity
+            android:name=".resetpassword"
+            android:exported="false" />
+        <activity
+            android:name=".forgotpassword"
+            android:exported="false" />
+        <activity
+            android:name=".otpverification"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".login_page"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".splashscreen"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
