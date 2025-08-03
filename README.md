@@ -57,6 +57,9 @@
 
 ---
 
-## 📅 Submission Date
+## 📅 Submission Info
 
-**26th May 2025**
+- **Course**: Mobile Computing  
+- **Instructor**: Sir Kaleem Razzaq  
+- **University**: Air University, Multan Campus  
+- **Submission Date**: 26th May 2025
